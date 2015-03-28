@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+	<title>Test clock</title>
+	<meta charset="utf-8" />
+	<style>
+		canvas#clock {
+			background-color: white;
+		}
+		body {
+			background-color: black;
+		}
+		div#content {
+			margin: 0 auto;
+		}
+	</style>
+	<script src="analogClock.js"></script>
+	<script>
+// load event
+window.addEventListener('load', function() {
+	var ac = new analogClock("clock");
+});
+	</script>
+</head>
+<body>
+	<div id="content">
+		<canvas id="clock" width=500 height=500></canvas>
+	</div>
+</body>
+</HTML>
