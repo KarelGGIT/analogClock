@@ -27,8 +27,8 @@ Then add the next snippet in the `<head>` element:
 
 And somewhere in the body element
 
-```
-	<canvas id="clock" width=500 height=500></canvas>
+```html
+<canvas id="clock" width=500 height=500></canvas>
 ```
 
 That is it !
